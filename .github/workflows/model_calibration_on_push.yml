@@ -1,9 +1,9 @@
-name: Model Retraining on Push to Main
+name: Model Retraining on Push to Master
 
 on:
   push:
     branches:
-      - main  # Trigger the workflow on pushes to the main branch
+      - master  # Trigger the workflow on pushes to the master branch
 
 jobs:
   retrain:
@@ -19,7 +19,7 @@ jobs:
         python-version: 3.9
 
     - name: Install dependencies
-      run: pip install -r requirements.txt
+      run: pip install -r Lab2/requirements.txt
 
     - name: Generate and Store Timestamp
       run: |
@@ -56,8 +56,8 @@ jobs:
 
     - name: Commit and Push Changes
       run: |
-        git config --global user.email "26876927+raminmohammadi@users.noreply.github.com"
-        git config --global user.name "raminmohammadi"
+        git config --global user.email "149433609+SheelaHansda@users.noreply.github.com"
+        git config --global user.name "SheelaHansda"
         git add $GITHUB_WORKSPACE/metrics/$metrics_filename $GITHUB_WORKSPACE/models/$model_filename
         git commit -m "Add metrics and updated model"
         git push
