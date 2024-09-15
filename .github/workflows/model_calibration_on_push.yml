@@ -29,21 +29,21 @@ jobs:
 
     - name: Check File Permissions
       run: |
-        ls -l .Lab2/src/train_model.py
+        ls -l Lab2/src/train_model.py
 
     - name: Set File Permissions
       run: |
-        chmod +x .Lab2/src/train_model.py
+        chmod +x Lab2/src/train_model.py
 
     - name: Retrain Model
       run: |
         timestamp=$(cat timestamp.txt) # Use the timestamp in your training script
-        python .Lab2/src/train_model.py --timestamp "$timestamp"
+        python Lab2/src/train_model.py --timestamp "$timestamp"
 
     - name: Evaluate Model and Log Metrics
       run: |
         timestamp=$(cat timestamp.txt) # Use the timestamp in your training script
-        python .Lab2/src/evaluate_model.py  --timestamp "$timestamp" # Assuming you have a script for model evaluation
+        python Lab2/src/evaluate_model.py  --timestamp "$timestamp" # Assuming you have a script for model evaluation
         metrics_filename="${timestamp}_metrics.json"
         mv $metrics_filename $GITHUB_WORKSPACE/metrics/$metrics_filename
       continue-on-error: false  # Continue even if evaluation fails
