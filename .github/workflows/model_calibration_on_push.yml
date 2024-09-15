@@ -3,7 +3,7 @@ name: Model Retraining on Push to Master
 on:
   push:
     branches:
-      - master  # Trigger the workflow on pushes to the master branch
+      - master  # Trigger the workflow on push to the master branch
 
 jobs:
   retrain:
