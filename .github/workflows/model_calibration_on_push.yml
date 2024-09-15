@@ -4,6 +4,8 @@ on:
   push:
     branches:
       - master  # Trigger the workflow on push to the master branch
+    paths:
+      -'Lab2/**'
 
 jobs:
   retrain:
