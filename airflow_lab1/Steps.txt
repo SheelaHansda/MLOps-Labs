@@ -1,0 +1,18 @@
+Note Link --> https://hey-its-rj.notion.site/Airflow-119fef43c12a800ab633e49e418d73cb (Worked)
+Note Link --> https://www.mlwithramin.com/blog/airflow-lab1
+
+Run on Windows 
+
+Step 1:Download Docker
+Step 2:Get the Docker compose yaml file --> curl -LfO '<https://airflow.apache.org/docs/apache-airflow/2.7.1/docker-compose.yaml>'
+Step 3:Create the directories --> mkdir dags logs plugins config
+Step 4:Create the environment file -->echo "AIRFLOW_UID=50000" > .env
+Step 5:Initialize database -->docker compose up airflow-init
+Step 6:Start local airflow instance -->docker compose up
+Step 7:View the dags Airflow local host -->http://localhost:8080/
+Step 8:Create a file example_hello_world.py in the ./dags folder
+
+[To update docker-compose.yaml, AIRFLOW__CORE__LOAD_EXAMPLES: 'false'
+ To Reset, docker compose down --volumes --remove-orphans
+]
+
