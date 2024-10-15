@@ -1,1 +1,1 @@
-# First_Lab-MLOps
+# MLOps-Labs
