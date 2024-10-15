@@ -1109,3 +1109,311 @@
 [2024-10-15T20:30:41.296+0000] {logging_mixin.py:188} INFO - [2024-10-15T20:30:41.295+0000] {dag.py:3096} INFO - Sync 1 DAGs
 [2024-10-15T20:30:41.320+0000] {logging_mixin.py:188} INFO - [2024-10-15T20:30:41.320+0000] {dag.py:3954} INFO - Setting next_dagrun for hello_world_dag to 2024-10-15 00:00:00+00:00, run_after=2024-10-16 00:00:00+00:00
 [2024-10-15T20:30:41.345+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/example_hello_world.py took 0.097 seconds
+[2024-10-15T20:31:11.519+0000] {processor.py:161} INFO - Started process (PID=11388) to work on /opt/airflow/dags/example_hello_world.py
+[2024-10-15T20:31:11.520+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/example_hello_world.py for tasks to queue
+[2024-10-15T20:31:11.523+0000] {logging_mixin.py:188} INFO - [2024-10-15T20:31:11.522+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/example_hello_world.py
+[2024-10-15T20:31:11.542+0000] {processor.py:840} INFO - DAG(s) 'hello_world_dag' retrieved from /opt/airflow/dags/example_hello_world.py
+[2024-10-15T20:31:11.561+0000] {logging_mixin.py:188} INFO - [2024-10-15T20:31:11.561+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-10-15T20:31:11.585+0000] {logging_mixin.py:188} INFO - [2024-10-15T20:31:11.584+0000] {dag.py:3954} INFO - Setting next_dagrun for hello_world_dag to 2024-10-15 00:00:00+00:00, run_after=2024-10-16 00:00:00+00:00
+[2024-10-15T20:31:11.610+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/example_hello_world.py took 0.100 seconds
+[2024-10-15T20:31:41.842+0000] {processor.py:161} INFO - Started process (PID=11449) to work on /opt/airflow/dags/example_hello_world.py
+[2024-10-15T20:31:41.843+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/example_hello_world.py for tasks to queue
+[2024-10-15T20:31:41.845+0000] {logging_mixin.py:188} INFO - [2024-10-15T20:31:41.845+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/example_hello_world.py
+[2024-10-15T20:31:41.868+0000] {processor.py:840} INFO - DAG(s) 'hello_world_dag' retrieved from /opt/airflow/dags/example_hello_world.py
+[2024-10-15T20:31:41.888+0000] {logging_mixin.py:188} INFO - [2024-10-15T20:31:41.888+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-10-15T20:31:41.914+0000] {logging_mixin.py:188} INFO - [2024-10-15T20:31:41.914+0000] {dag.py:3954} INFO - Setting next_dagrun for hello_world_dag to 2024-10-15 00:00:00+00:00, run_after=2024-10-16 00:00:00+00:00
+[2024-10-15T20:31:41.940+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/example_hello_world.py took 0.104 seconds
+[2024-10-15T20:32:12.065+0000] {processor.py:161} INFO - Started process (PID=11510) to work on /opt/airflow/dags/example_hello_world.py
+[2024-10-15T20:32:12.066+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/example_hello_world.py for tasks to queue
+[2024-10-15T20:32:12.068+0000] {logging_mixin.py:188} INFO - [2024-10-15T20:32:12.068+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/example_hello_world.py
+[2024-10-15T20:32:12.086+0000] {processor.py:840} INFO - DAG(s) 'hello_world_dag' retrieved from /opt/airflow/dags/example_hello_world.py
+[2024-10-15T20:32:12.107+0000] {logging_mixin.py:188} INFO - [2024-10-15T20:32:12.106+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-10-15T20:32:12.131+0000] {logging_mixin.py:188} INFO - [2024-10-15T20:32:12.131+0000] {dag.py:3954} INFO - Setting next_dagrun for hello_world_dag to 2024-10-15 00:00:00+00:00, run_after=2024-10-16 00:00:00+00:00
+[2024-10-15T20:32:12.154+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/example_hello_world.py took 0.095 seconds
+[2024-10-15T20:32:42.531+0000] {processor.py:161} INFO - Started process (PID=11571) to work on /opt/airflow/dags/example_hello_world.py
+[2024-10-15T20:32:42.532+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/example_hello_world.py for tasks to queue
+[2024-10-15T20:32:42.534+0000] {logging_mixin.py:188} INFO - [2024-10-15T20:32:42.534+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/example_hello_world.py
+[2024-10-15T20:32:42.553+0000] {processor.py:840} INFO - DAG(s) 'hello_world_dag' retrieved from /opt/airflow/dags/example_hello_world.py
+[2024-10-15T20:32:42.574+0000] {logging_mixin.py:188} INFO - [2024-10-15T20:32:42.574+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-10-15T20:32:42.598+0000] {logging_mixin.py:188} INFO - [2024-10-15T20:32:42.598+0000] {dag.py:3954} INFO - Setting next_dagrun for hello_world_dag to 2024-10-15 00:00:00+00:00, run_after=2024-10-16 00:00:00+00:00
+[2024-10-15T20:32:42.625+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/example_hello_world.py took 0.101 seconds
+[2024-10-15T20:33:12.876+0000] {processor.py:161} INFO - Started process (PID=11632) to work on /opt/airflow/dags/example_hello_world.py
+[2024-10-15T20:33:12.877+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/example_hello_world.py for tasks to queue
+[2024-10-15T20:33:12.879+0000] {logging_mixin.py:188} INFO - [2024-10-15T20:33:12.879+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/example_hello_world.py
+[2024-10-15T20:33:12.902+0000] {processor.py:840} INFO - DAG(s) 'hello_world_dag' retrieved from /opt/airflow/dags/example_hello_world.py
+[2024-10-15T20:33:12.922+0000] {logging_mixin.py:188} INFO - [2024-10-15T20:33:12.921+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-10-15T20:33:12.946+0000] {logging_mixin.py:188} INFO - [2024-10-15T20:33:12.946+0000] {dag.py:3954} INFO - Setting next_dagrun for hello_world_dag to 2024-10-15 00:00:00+00:00, run_after=2024-10-16 00:00:00+00:00
+[2024-10-15T20:33:12.972+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/example_hello_world.py took 0.103 seconds
+[2024-10-15T20:33:43.284+0000] {processor.py:161} INFO - Started process (PID=11693) to work on /opt/airflow/dags/example_hello_world.py
+[2024-10-15T20:33:43.285+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/example_hello_world.py for tasks to queue
+[2024-10-15T20:33:43.288+0000] {logging_mixin.py:188} INFO - [2024-10-15T20:33:43.287+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/example_hello_world.py
+[2024-10-15T20:33:43.307+0000] {processor.py:840} INFO - DAG(s) 'hello_world_dag' retrieved from /opt/airflow/dags/example_hello_world.py
+[2024-10-15T20:33:43.329+0000] {logging_mixin.py:188} INFO - [2024-10-15T20:33:43.329+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-10-15T20:33:43.359+0000] {logging_mixin.py:188} INFO - [2024-10-15T20:33:43.359+0000] {dag.py:3954} INFO - Setting next_dagrun for hello_world_dag to 2024-10-15 00:00:00+00:00, run_after=2024-10-16 00:00:00+00:00
+[2024-10-15T20:33:43.385+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/example_hello_world.py took 0.111 seconds
+[2024-10-15T20:34:14.042+0000] {processor.py:161} INFO - Started process (PID=11754) to work on /opt/airflow/dags/example_hello_world.py
+[2024-10-15T20:34:14.043+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/example_hello_world.py for tasks to queue
+[2024-10-15T20:34:14.045+0000] {logging_mixin.py:188} INFO - [2024-10-15T20:34:14.045+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/example_hello_world.py
+[2024-10-15T20:34:14.071+0000] {processor.py:840} INFO - DAG(s) 'hello_world_dag' retrieved from /opt/airflow/dags/example_hello_world.py
+[2024-10-15T20:34:14.107+0000] {logging_mixin.py:188} INFO - [2024-10-15T20:34:14.107+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-10-15T20:34:14.133+0000] {logging_mixin.py:188} INFO - [2024-10-15T20:34:14.132+0000] {dag.py:3954} INFO - Setting next_dagrun for hello_world_dag to 2024-10-15 00:00:00+00:00, run_after=2024-10-16 00:00:00+00:00
+[2024-10-15T20:34:14.160+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/example_hello_world.py took 0.125 seconds
+[2024-10-15T20:34:44.494+0000] {processor.py:161} INFO - Started process (PID=11815) to work on /opt/airflow/dags/example_hello_world.py
+[2024-10-15T20:34:44.495+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/example_hello_world.py for tasks to queue
+[2024-10-15T20:34:44.496+0000] {logging_mixin.py:188} INFO - [2024-10-15T20:34:44.496+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/example_hello_world.py
+[2024-10-15T20:34:44.513+0000] {processor.py:840} INFO - DAG(s) 'hello_world_dag' retrieved from /opt/airflow/dags/example_hello_world.py
+[2024-10-15T20:34:44.533+0000] {logging_mixin.py:188} INFO - [2024-10-15T20:34:44.533+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-10-15T20:34:44.558+0000] {logging_mixin.py:188} INFO - [2024-10-15T20:34:44.557+0000] {dag.py:3954} INFO - Setting next_dagrun for hello_world_dag to 2024-10-15 00:00:00+00:00, run_after=2024-10-16 00:00:00+00:00
+[2024-10-15T20:34:44.582+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/example_hello_world.py took 0.096 seconds
+[2024-10-15T20:35:15.095+0000] {processor.py:161} INFO - Started process (PID=11876) to work on /opt/airflow/dags/example_hello_world.py
+[2024-10-15T20:35:15.096+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/example_hello_world.py for tasks to queue
+[2024-10-15T20:35:15.098+0000] {logging_mixin.py:188} INFO - [2024-10-15T20:35:15.098+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/example_hello_world.py
+[2024-10-15T20:35:15.117+0000] {processor.py:840} INFO - DAG(s) 'hello_world_dag' retrieved from /opt/airflow/dags/example_hello_world.py
+[2024-10-15T20:35:15.137+0000] {logging_mixin.py:188} INFO - [2024-10-15T20:35:15.137+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-10-15T20:35:15.161+0000] {logging_mixin.py:188} INFO - [2024-10-15T20:35:15.161+0000] {dag.py:3954} INFO - Setting next_dagrun for hello_world_dag to 2024-10-15 00:00:00+00:00, run_after=2024-10-16 00:00:00+00:00
+[2024-10-15T20:35:15.186+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/example_hello_world.py took 0.100 seconds
+[2024-10-15T20:35:45.673+0000] {processor.py:161} INFO - Started process (PID=11937) to work on /opt/airflow/dags/example_hello_world.py
+[2024-10-15T20:35:45.674+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/example_hello_world.py for tasks to queue
+[2024-10-15T20:35:45.677+0000] {logging_mixin.py:188} INFO - [2024-10-15T20:35:45.677+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/example_hello_world.py
+[2024-10-15T20:35:45.698+0000] {processor.py:840} INFO - DAG(s) 'hello_world_dag' retrieved from /opt/airflow/dags/example_hello_world.py
+[2024-10-15T20:35:45.727+0000] {logging_mixin.py:188} INFO - [2024-10-15T20:35:45.727+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-10-15T20:35:45.768+0000] {logging_mixin.py:188} INFO - [2024-10-15T20:35:45.768+0000] {dag.py:3954} INFO - Setting next_dagrun for hello_world_dag to 2024-10-15 00:00:00+00:00, run_after=2024-10-16 00:00:00+00:00
+[2024-10-15T20:35:45.808+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/example_hello_world.py took 0.146 seconds
+[2024-10-15T20:36:16.175+0000] {processor.py:161} INFO - Started process (PID=11998) to work on /opt/airflow/dags/example_hello_world.py
+[2024-10-15T20:36:16.176+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/example_hello_world.py for tasks to queue
+[2024-10-15T20:36:16.179+0000] {logging_mixin.py:188} INFO - [2024-10-15T20:36:16.178+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/example_hello_world.py
+[2024-10-15T20:36:16.202+0000] {processor.py:840} INFO - DAG(s) 'hello_world_dag' retrieved from /opt/airflow/dags/example_hello_world.py
+[2024-10-15T20:36:16.223+0000] {logging_mixin.py:188} INFO - [2024-10-15T20:36:16.223+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-10-15T20:36:16.251+0000] {logging_mixin.py:188} INFO - [2024-10-15T20:36:16.250+0000] {dag.py:3954} INFO - Setting next_dagrun for hello_world_dag to 2024-10-15 00:00:00+00:00, run_after=2024-10-16 00:00:00+00:00
+[2024-10-15T20:36:16.277+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/example_hello_world.py took 0.108 seconds
+[2024-10-15T20:36:46.593+0000] {processor.py:161} INFO - Started process (PID=12060) to work on /opt/airflow/dags/example_hello_world.py
+[2024-10-15T20:36:46.594+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/example_hello_world.py for tasks to queue
+[2024-10-15T20:36:46.596+0000] {logging_mixin.py:188} INFO - [2024-10-15T20:36:46.596+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/example_hello_world.py
+[2024-10-15T20:36:46.618+0000] {processor.py:840} INFO - DAG(s) 'hello_world_dag' retrieved from /opt/airflow/dags/example_hello_world.py
+[2024-10-15T20:36:46.638+0000] {logging_mixin.py:188} INFO - [2024-10-15T20:36:46.638+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-10-15T20:36:46.663+0000] {logging_mixin.py:188} INFO - [2024-10-15T20:36:46.662+0000] {dag.py:3954} INFO - Setting next_dagrun for hello_world_dag to 2024-10-15 00:00:00+00:00, run_after=2024-10-16 00:00:00+00:00
+[2024-10-15T20:36:46.813+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/example_hello_world.py took 0.229 seconds
+[2024-10-15T20:37:17.016+0000] {processor.py:161} INFO - Started process (PID=12121) to work on /opt/airflow/dags/example_hello_world.py
+[2024-10-15T20:37:17.017+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/example_hello_world.py for tasks to queue
+[2024-10-15T20:37:17.020+0000] {logging_mixin.py:188} INFO - [2024-10-15T20:37:17.020+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/example_hello_world.py
+[2024-10-15T20:37:17.040+0000] {processor.py:840} INFO - DAG(s) 'hello_world_dag' retrieved from /opt/airflow/dags/example_hello_world.py
+[2024-10-15T20:37:17.060+0000] {logging_mixin.py:188} INFO - [2024-10-15T20:37:17.060+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-10-15T20:37:17.086+0000] {logging_mixin.py:188} INFO - [2024-10-15T20:37:17.085+0000] {dag.py:3954} INFO - Setting next_dagrun for hello_world_dag to 2024-10-15 00:00:00+00:00, run_after=2024-10-16 00:00:00+00:00
+[2024-10-15T20:37:17.233+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/example_hello_world.py took 0.223 seconds
+[2024-10-15T20:37:47.341+0000] {processor.py:161} INFO - Started process (PID=12182) to work on /opt/airflow/dags/example_hello_world.py
+[2024-10-15T20:37:47.342+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/example_hello_world.py for tasks to queue
+[2024-10-15T20:37:47.344+0000] {logging_mixin.py:188} INFO - [2024-10-15T20:37:47.344+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/example_hello_world.py
+[2024-10-15T20:37:47.362+0000] {processor.py:840} INFO - DAG(s) 'hello_world_dag' retrieved from /opt/airflow/dags/example_hello_world.py
+[2024-10-15T20:37:47.383+0000] {logging_mixin.py:188} INFO - [2024-10-15T20:37:47.382+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-10-15T20:37:47.415+0000] {logging_mixin.py:188} INFO - [2024-10-15T20:37:47.414+0000] {dag.py:3954} INFO - Setting next_dagrun for hello_world_dag to 2024-10-15 00:00:00+00:00, run_after=2024-10-16 00:00:00+00:00
+[2024-10-15T20:37:47.451+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/example_hello_world.py took 0.116 seconds
+[2024-10-15T20:38:17.870+0000] {processor.py:161} INFO - Started process (PID=12243) to work on /opt/airflow/dags/example_hello_world.py
+[2024-10-15T20:38:17.871+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/example_hello_world.py for tasks to queue
+[2024-10-15T20:38:17.873+0000] {logging_mixin.py:188} INFO - [2024-10-15T20:38:17.873+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/example_hello_world.py
+[2024-10-15T20:38:17.893+0000] {processor.py:840} INFO - DAG(s) 'hello_world_dag' retrieved from /opt/airflow/dags/example_hello_world.py
+[2024-10-15T20:38:17.913+0000] {logging_mixin.py:188} INFO - [2024-10-15T20:38:17.913+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-10-15T20:38:17.938+0000] {logging_mixin.py:188} INFO - [2024-10-15T20:38:17.938+0000] {dag.py:3954} INFO - Setting next_dagrun for hello_world_dag to 2024-10-15 00:00:00+00:00, run_after=2024-10-16 00:00:00+00:00
+[2024-10-15T20:38:17.963+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/example_hello_world.py took 0.099 seconds
+[2024-10-15T20:38:48.232+0000] {processor.py:161} INFO - Started process (PID=12304) to work on /opt/airflow/dags/example_hello_world.py
+[2024-10-15T20:38:48.234+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/example_hello_world.py for tasks to queue
+[2024-10-15T20:38:48.236+0000] {logging_mixin.py:188} INFO - [2024-10-15T20:38:48.235+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/example_hello_world.py
+[2024-10-15T20:38:48.257+0000] {processor.py:840} INFO - DAG(s) 'hello_world_dag' retrieved from /opt/airflow/dags/example_hello_world.py
+[2024-10-15T20:38:48.287+0000] {logging_mixin.py:188} INFO - [2024-10-15T20:38:48.287+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-10-15T20:38:48.314+0000] {logging_mixin.py:188} INFO - [2024-10-15T20:38:48.314+0000] {dag.py:3954} INFO - Setting next_dagrun for hello_world_dag to 2024-10-15 00:00:00+00:00, run_after=2024-10-16 00:00:00+00:00
+[2024-10-15T20:38:48.339+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/example_hello_world.py took 0.114 seconds
+[2024-10-15T20:39:18.651+0000] {processor.py:161} INFO - Started process (PID=12365) to work on /opt/airflow/dags/example_hello_world.py
+[2024-10-15T20:39:18.652+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/example_hello_world.py for tasks to queue
+[2024-10-15T20:39:18.654+0000] {logging_mixin.py:188} INFO - [2024-10-15T20:39:18.654+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/example_hello_world.py
+[2024-10-15T20:39:18.675+0000] {processor.py:840} INFO - DAG(s) 'hello_world_dag' retrieved from /opt/airflow/dags/example_hello_world.py
+[2024-10-15T20:39:18.697+0000] {logging_mixin.py:188} INFO - [2024-10-15T20:39:18.696+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-10-15T20:39:18.723+0000] {logging_mixin.py:188} INFO - [2024-10-15T20:39:18.722+0000] {dag.py:3954} INFO - Setting next_dagrun for hello_world_dag to 2024-10-15 00:00:00+00:00, run_after=2024-10-16 00:00:00+00:00
+[2024-10-15T20:39:18.750+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/example_hello_world.py took 0.110 seconds
+[2024-10-15T20:39:48.894+0000] {processor.py:161} INFO - Started process (PID=12426) to work on /opt/airflow/dags/example_hello_world.py
+[2024-10-15T20:39:48.895+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/example_hello_world.py for tasks to queue
+[2024-10-15T20:39:48.897+0000] {logging_mixin.py:188} INFO - [2024-10-15T20:39:48.897+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/example_hello_world.py
+[2024-10-15T20:39:49.057+0000] {processor.py:840} INFO - DAG(s) 'hello_world_dag' retrieved from /opt/airflow/dags/example_hello_world.py
+[2024-10-15T20:39:49.083+0000] {logging_mixin.py:188} INFO - [2024-10-15T20:39:49.083+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-10-15T20:39:49.108+0000] {logging_mixin.py:188} INFO - [2024-10-15T20:39:49.108+0000] {dag.py:3954} INFO - Setting next_dagrun for hello_world_dag to 2024-10-15 00:00:00+00:00, run_after=2024-10-16 00:00:00+00:00
+[2024-10-15T20:39:49.131+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/example_hello_world.py took 0.245 seconds
+[2024-10-15T20:40:19.721+0000] {processor.py:161} INFO - Started process (PID=12487) to work on /opt/airflow/dags/example_hello_world.py
+[2024-10-15T20:40:19.722+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/example_hello_world.py for tasks to queue
+[2024-10-15T20:40:19.724+0000] {logging_mixin.py:188} INFO - [2024-10-15T20:40:19.724+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/example_hello_world.py
+[2024-10-15T20:40:19.743+0000] {processor.py:840} INFO - DAG(s) 'hello_world_dag' retrieved from /opt/airflow/dags/example_hello_world.py
+[2024-10-15T20:40:19.765+0000] {logging_mixin.py:188} INFO - [2024-10-15T20:40:19.765+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-10-15T20:40:19.790+0000] {logging_mixin.py:188} INFO - [2024-10-15T20:40:19.790+0000] {dag.py:3954} INFO - Setting next_dagrun for hello_world_dag to 2024-10-15 00:00:00+00:00, run_after=2024-10-16 00:00:00+00:00
+[2024-10-15T20:40:19.818+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/example_hello_world.py took 0.104 seconds
+[2024-10-15T20:40:50.026+0000] {processor.py:161} INFO - Started process (PID=12548) to work on /opt/airflow/dags/example_hello_world.py
+[2024-10-15T20:40:50.027+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/example_hello_world.py for tasks to queue
+[2024-10-15T20:40:50.029+0000] {logging_mixin.py:188} INFO - [2024-10-15T20:40:50.029+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/example_hello_world.py
+[2024-10-15T20:40:50.045+0000] {processor.py:840} INFO - DAG(s) 'hello_world_dag' retrieved from /opt/airflow/dags/example_hello_world.py
+[2024-10-15T20:40:50.067+0000] {logging_mixin.py:188} INFO - [2024-10-15T20:40:50.066+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-10-15T20:40:50.091+0000] {logging_mixin.py:188} INFO - [2024-10-15T20:40:50.090+0000] {dag.py:3954} INFO - Setting next_dagrun for hello_world_dag to 2024-10-15 00:00:00+00:00, run_after=2024-10-16 00:00:00+00:00
+[2024-10-15T20:40:50.117+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/example_hello_world.py took 0.096 seconds
+[2024-10-15T20:41:20.311+0000] {processor.py:161} INFO - Started process (PID=12609) to work on /opt/airflow/dags/example_hello_world.py
+[2024-10-15T20:41:20.313+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/example_hello_world.py for tasks to queue
+[2024-10-15T20:41:20.315+0000] {logging_mixin.py:188} INFO - [2024-10-15T20:41:20.315+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/example_hello_world.py
+[2024-10-15T20:41:20.336+0000] {processor.py:840} INFO - DAG(s) 'hello_world_dag' retrieved from /opt/airflow/dags/example_hello_world.py
+[2024-10-15T20:41:20.357+0000] {logging_mixin.py:188} INFO - [2024-10-15T20:41:20.356+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-10-15T20:41:20.381+0000] {logging_mixin.py:188} INFO - [2024-10-15T20:41:20.381+0000] {dag.py:3954} INFO - Setting next_dagrun for hello_world_dag to 2024-10-15 00:00:00+00:00, run_after=2024-10-16 00:00:00+00:00
+[2024-10-15T20:41:20.409+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/example_hello_world.py took 0.106 seconds
+[2024-10-15T20:41:50.619+0000] {processor.py:161} INFO - Started process (PID=12670) to work on /opt/airflow/dags/example_hello_world.py
+[2024-10-15T20:41:50.620+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/example_hello_world.py for tasks to queue
+[2024-10-15T20:41:50.623+0000] {logging_mixin.py:188} INFO - [2024-10-15T20:41:50.622+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/example_hello_world.py
+[2024-10-15T20:41:50.644+0000] {processor.py:840} INFO - DAG(s) 'hello_world_dag' retrieved from /opt/airflow/dags/example_hello_world.py
+[2024-10-15T20:41:50.664+0000] {logging_mixin.py:188} INFO - [2024-10-15T20:41:50.664+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-10-15T20:41:50.689+0000] {logging_mixin.py:188} INFO - [2024-10-15T20:41:50.689+0000] {dag.py:3954} INFO - Setting next_dagrun for hello_world_dag to 2024-10-15 00:00:00+00:00, run_after=2024-10-16 00:00:00+00:00
+[2024-10-15T20:41:50.715+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/example_hello_world.py took 0.103 seconds
+[2024-10-15T20:42:21.252+0000] {processor.py:161} INFO - Started process (PID=12731) to work on /opt/airflow/dags/example_hello_world.py
+[2024-10-15T20:42:21.252+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/example_hello_world.py for tasks to queue
+[2024-10-15T20:42:21.254+0000] {logging_mixin.py:188} INFO - [2024-10-15T20:42:21.254+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/example_hello_world.py
+[2024-10-15T20:42:21.274+0000] {processor.py:840} INFO - DAG(s) 'hello_world_dag' retrieved from /opt/airflow/dags/example_hello_world.py
+[2024-10-15T20:42:21.295+0000] {logging_mixin.py:188} INFO - [2024-10-15T20:42:21.294+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-10-15T20:42:21.319+0000] {logging_mixin.py:188} INFO - [2024-10-15T20:42:21.319+0000] {dag.py:3954} INFO - Setting next_dagrun for hello_world_dag to 2024-10-15 00:00:00+00:00, run_after=2024-10-16 00:00:00+00:00
+[2024-10-15T20:42:21.345+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/example_hello_world.py took 0.101 seconds
+[2024-10-15T20:42:52.080+0000] {processor.py:161} INFO - Started process (PID=12790) to work on /opt/airflow/dags/example_hello_world.py
+[2024-10-15T20:42:52.081+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/example_hello_world.py for tasks to queue
+[2024-10-15T20:42:52.084+0000] {logging_mixin.py:188} INFO - [2024-10-15T20:42:52.083+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/example_hello_world.py
+[2024-10-15T20:42:52.104+0000] {processor.py:840} INFO - DAG(s) 'hello_world_dag' retrieved from /opt/airflow/dags/example_hello_world.py
+[2024-10-15T20:42:52.124+0000] {logging_mixin.py:188} INFO - [2024-10-15T20:42:52.124+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-10-15T20:42:52.148+0000] {logging_mixin.py:188} INFO - [2024-10-15T20:42:52.148+0000] {dag.py:3954} INFO - Setting next_dagrun for hello_world_dag to 2024-10-15 00:00:00+00:00, run_after=2024-10-16 00:00:00+00:00
+[2024-10-15T20:42:52.175+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/example_hello_world.py took 0.101 seconds
+[2024-10-15T20:43:22.280+0000] {processor.py:161} INFO - Started process (PID=12851) to work on /opt/airflow/dags/example_hello_world.py
+[2024-10-15T20:43:22.281+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/example_hello_world.py for tasks to queue
+[2024-10-15T20:43:22.283+0000] {logging_mixin.py:188} INFO - [2024-10-15T20:43:22.283+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/example_hello_world.py
+[2024-10-15T20:43:22.302+0000] {processor.py:840} INFO - DAG(s) 'hello_world_dag' retrieved from /opt/airflow/dags/example_hello_world.py
+[2024-10-15T20:43:22.321+0000] {logging_mixin.py:188} INFO - [2024-10-15T20:43:22.321+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-10-15T20:43:22.346+0000] {logging_mixin.py:188} INFO - [2024-10-15T20:43:22.346+0000] {dag.py:3954} INFO - Setting next_dagrun for hello_world_dag to 2024-10-15 00:00:00+00:00, run_after=2024-10-16 00:00:00+00:00
+[2024-10-15T20:43:22.370+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/example_hello_world.py took 0.097 seconds
+[2024-10-15T20:43:53.124+0000] {processor.py:161} INFO - Started process (PID=12912) to work on /opt/airflow/dags/example_hello_world.py
+[2024-10-15T20:43:53.125+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/example_hello_world.py for tasks to queue
+[2024-10-15T20:43:53.128+0000] {logging_mixin.py:188} INFO - [2024-10-15T20:43:53.127+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/example_hello_world.py
+[2024-10-15T20:43:53.149+0000] {processor.py:840} INFO - DAG(s) 'hello_world_dag' retrieved from /opt/airflow/dags/example_hello_world.py
+[2024-10-15T20:43:53.171+0000] {logging_mixin.py:188} INFO - [2024-10-15T20:43:53.170+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-10-15T20:43:53.200+0000] {logging_mixin.py:188} INFO - [2024-10-15T20:43:53.200+0000] {dag.py:3954} INFO - Setting next_dagrun for hello_world_dag to 2024-10-15 00:00:00+00:00, run_after=2024-10-16 00:00:00+00:00
+[2024-10-15T20:43:53.225+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/example_hello_world.py took 0.108 seconds
+[2024-10-15T20:44:23.403+0000] {processor.py:161} INFO - Started process (PID=12973) to work on /opt/airflow/dags/example_hello_world.py
+[2024-10-15T20:44:23.404+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/example_hello_world.py for tasks to queue
+[2024-10-15T20:44:23.406+0000] {logging_mixin.py:188} INFO - [2024-10-15T20:44:23.406+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/example_hello_world.py
+[2024-10-15T20:44:23.427+0000] {processor.py:840} INFO - DAG(s) 'hello_world_dag' retrieved from /opt/airflow/dags/example_hello_world.py
+[2024-10-15T20:44:23.447+0000] {logging_mixin.py:188} INFO - [2024-10-15T20:44:23.447+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-10-15T20:44:23.472+0000] {logging_mixin.py:188} INFO - [2024-10-15T20:44:23.471+0000] {dag.py:3954} INFO - Setting next_dagrun for hello_world_dag to 2024-10-15 00:00:00+00:00, run_after=2024-10-16 00:00:00+00:00
+[2024-10-15T20:44:23.501+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/example_hello_world.py took 0.104 seconds
+[2024-10-15T20:44:53.591+0000] {processor.py:161} INFO - Started process (PID=13034) to work on /opt/airflow/dags/example_hello_world.py
+[2024-10-15T20:44:53.592+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/example_hello_world.py for tasks to queue
+[2024-10-15T20:44:53.594+0000] {logging_mixin.py:188} INFO - [2024-10-15T20:44:53.594+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/example_hello_world.py
+[2024-10-15T20:44:53.614+0000] {processor.py:840} INFO - DAG(s) 'hello_world_dag' retrieved from /opt/airflow/dags/example_hello_world.py
+[2024-10-15T20:44:53.635+0000] {logging_mixin.py:188} INFO - [2024-10-15T20:44:53.634+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-10-15T20:44:53.659+0000] {logging_mixin.py:188} INFO - [2024-10-15T20:44:53.659+0000] {dag.py:3954} INFO - Setting next_dagrun for hello_world_dag to 2024-10-15 00:00:00+00:00, run_after=2024-10-16 00:00:00+00:00
+[2024-10-15T20:44:53.687+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/example_hello_world.py took 0.103 seconds
+[2024-10-15T20:45:24.074+0000] {processor.py:161} INFO - Started process (PID=13095) to work on /opt/airflow/dags/example_hello_world.py
+[2024-10-15T20:45:24.075+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/example_hello_world.py for tasks to queue
+[2024-10-15T20:45:24.077+0000] {logging_mixin.py:188} INFO - [2024-10-15T20:45:24.076+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/example_hello_world.py
+[2024-10-15T20:45:24.095+0000] {processor.py:840} INFO - DAG(s) 'hello_world_dag' retrieved from /opt/airflow/dags/example_hello_world.py
+[2024-10-15T20:45:24.116+0000] {logging_mixin.py:188} INFO - [2024-10-15T20:45:24.115+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-10-15T20:45:24.141+0000] {logging_mixin.py:188} INFO - [2024-10-15T20:45:24.141+0000] {dag.py:3954} INFO - Setting next_dagrun for hello_world_dag to 2024-10-15 00:00:00+00:00, run_after=2024-10-16 00:00:00+00:00
+[2024-10-15T20:45:24.167+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/example_hello_world.py took 0.101 seconds
+[2024-10-15T20:45:54.225+0000] {processor.py:161} INFO - Started process (PID=13156) to work on /opt/airflow/dags/example_hello_world.py
+[2024-10-15T20:45:54.226+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/example_hello_world.py for tasks to queue
+[2024-10-15T20:45:54.228+0000] {logging_mixin.py:188} INFO - [2024-10-15T20:45:54.228+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/example_hello_world.py
+[2024-10-15T20:45:54.249+0000] {processor.py:840} INFO - DAG(s) 'hello_world_dag' retrieved from /opt/airflow/dags/example_hello_world.py
+[2024-10-15T20:45:54.272+0000] {logging_mixin.py:188} INFO - [2024-10-15T20:45:54.272+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-10-15T20:45:54.298+0000] {logging_mixin.py:188} INFO - [2024-10-15T20:45:54.298+0000] {dag.py:3954} INFO - Setting next_dagrun for hello_world_dag to 2024-10-15 00:00:00+00:00, run_after=2024-10-16 00:00:00+00:00
+[2024-10-15T20:45:54.326+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/example_hello_world.py took 0.108 seconds
+[2024-10-15T20:46:24.488+0000] {processor.py:161} INFO - Started process (PID=13217) to work on /opt/airflow/dags/example_hello_world.py
+[2024-10-15T20:46:24.489+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/example_hello_world.py for tasks to queue
+[2024-10-15T20:46:24.490+0000] {logging_mixin.py:188} INFO - [2024-10-15T20:46:24.490+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/example_hello_world.py
+[2024-10-15T20:46:24.510+0000] {processor.py:840} INFO - DAG(s) 'hello_world_dag' retrieved from /opt/airflow/dags/example_hello_world.py
+[2024-10-15T20:46:24.529+0000] {logging_mixin.py:188} INFO - [2024-10-15T20:46:24.529+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-10-15T20:46:24.554+0000] {logging_mixin.py:188} INFO - [2024-10-15T20:46:24.553+0000] {dag.py:3954} INFO - Setting next_dagrun for hello_world_dag to 2024-10-15 00:00:00+00:00, run_after=2024-10-16 00:00:00+00:00
+[2024-10-15T20:46:24.579+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/example_hello_world.py took 0.098 seconds
+[2024-10-15T20:46:54.691+0000] {processor.py:161} INFO - Started process (PID=13278) to work on /opt/airflow/dags/example_hello_world.py
+[2024-10-15T20:46:54.693+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/example_hello_world.py for tasks to queue
+[2024-10-15T20:46:54.695+0000] {logging_mixin.py:188} INFO - [2024-10-15T20:46:54.694+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/example_hello_world.py
+[2024-10-15T20:46:54.716+0000] {processor.py:840} INFO - DAG(s) 'hello_world_dag' retrieved from /opt/airflow/dags/example_hello_world.py
+[2024-10-15T20:46:54.736+0000] {logging_mixin.py:188} INFO - [2024-10-15T20:46:54.736+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-10-15T20:46:54.762+0000] {logging_mixin.py:188} INFO - [2024-10-15T20:46:54.762+0000] {dag.py:3954} INFO - Setting next_dagrun for hello_world_dag to 2024-10-15 00:00:00+00:00, run_after=2024-10-16 00:00:00+00:00
+[2024-10-15T20:46:54.788+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/example_hello_world.py took 0.103 seconds
+[2024-10-15T20:47:24.979+0000] {processor.py:161} INFO - Started process (PID=13339) to work on /opt/airflow/dags/example_hello_world.py
+[2024-10-15T20:47:24.980+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/example_hello_world.py for tasks to queue
+[2024-10-15T20:47:24.982+0000] {logging_mixin.py:188} INFO - [2024-10-15T20:47:24.982+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/example_hello_world.py
+[2024-10-15T20:47:24.998+0000] {processor.py:840} INFO - DAG(s) 'hello_world_dag' retrieved from /opt/airflow/dags/example_hello_world.py
+[2024-10-15T20:47:25.017+0000] {logging_mixin.py:188} INFO - [2024-10-15T20:47:25.017+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-10-15T20:47:25.041+0000] {logging_mixin.py:188} INFO - [2024-10-15T20:47:25.041+0000] {dag.py:3954} INFO - Setting next_dagrun for hello_world_dag to 2024-10-15 00:00:00+00:00, run_after=2024-10-16 00:00:00+00:00
+[2024-10-15T20:47:25.066+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/example_hello_world.py took 0.094 seconds
+[2024-10-15T20:47:55.299+0000] {processor.py:161} INFO - Started process (PID=13400) to work on /opt/airflow/dags/example_hello_world.py
+[2024-10-15T20:47:55.300+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/example_hello_world.py for tasks to queue
+[2024-10-15T20:47:55.302+0000] {logging_mixin.py:188} INFO - [2024-10-15T20:47:55.302+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/example_hello_world.py
+[2024-10-15T20:47:55.324+0000] {processor.py:840} INFO - DAG(s) 'hello_world_dag' retrieved from /opt/airflow/dags/example_hello_world.py
+[2024-10-15T20:47:55.344+0000] {logging_mixin.py:188} INFO - [2024-10-15T20:47:55.343+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-10-15T20:47:55.370+0000] {logging_mixin.py:188} INFO - [2024-10-15T20:47:55.369+0000] {dag.py:3954} INFO - Setting next_dagrun for hello_world_dag to 2024-10-15 00:00:00+00:00, run_after=2024-10-16 00:00:00+00:00
+[2024-10-15T20:47:55.397+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/example_hello_world.py took 0.105 seconds
+[2024-10-15T20:48:25.588+0000] {processor.py:161} INFO - Started process (PID=13461) to work on /opt/airflow/dags/example_hello_world.py
+[2024-10-15T20:48:25.589+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/example_hello_world.py for tasks to queue
+[2024-10-15T20:48:25.592+0000] {logging_mixin.py:188} INFO - [2024-10-15T20:48:25.592+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/example_hello_world.py
+[2024-10-15T20:48:25.609+0000] {processor.py:840} INFO - DAG(s) 'hello_world_dag' retrieved from /opt/airflow/dags/example_hello_world.py
+[2024-10-15T20:48:25.630+0000] {logging_mixin.py:188} INFO - [2024-10-15T20:48:25.629+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-10-15T20:48:25.655+0000] {logging_mixin.py:188} INFO - [2024-10-15T20:48:25.655+0000] {dag.py:3954} INFO - Setting next_dagrun for hello_world_dag to 2024-10-15 00:00:00+00:00, run_after=2024-10-16 00:00:00+00:00
+[2024-10-15T20:48:25.681+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/example_hello_world.py took 0.099 seconds
+[2024-10-15T20:48:56.118+0000] {processor.py:161} INFO - Started process (PID=13521) to work on /opt/airflow/dags/example_hello_world.py
+[2024-10-15T20:48:56.119+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/example_hello_world.py for tasks to queue
+[2024-10-15T20:48:56.121+0000] {logging_mixin.py:188} INFO - [2024-10-15T20:48:56.121+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/example_hello_world.py
+[2024-10-15T20:48:56.139+0000] {processor.py:840} INFO - DAG(s) 'hello_world_dag' retrieved from /opt/airflow/dags/example_hello_world.py
+[2024-10-15T20:48:56.160+0000] {logging_mixin.py:188} INFO - [2024-10-15T20:48:56.159+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-10-15T20:48:56.190+0000] {logging_mixin.py:188} INFO - [2024-10-15T20:48:56.190+0000] {dag.py:3954} INFO - Setting next_dagrun for hello_world_dag to 2024-10-15 00:00:00+00:00, run_after=2024-10-16 00:00:00+00:00
+[2024-10-15T20:48:56.217+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/example_hello_world.py took 0.104 seconds
+[2024-10-15T20:49:26.868+0000] {processor.py:161} INFO - Started process (PID=13580) to work on /opt/airflow/dags/example_hello_world.py
+[2024-10-15T20:49:26.869+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/example_hello_world.py for tasks to queue
+[2024-10-15T20:49:26.871+0000] {logging_mixin.py:188} INFO - [2024-10-15T20:49:26.870+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/example_hello_world.py
+[2024-10-15T20:49:26.892+0000] {processor.py:840} INFO - DAG(s) 'hello_world_dag' retrieved from /opt/airflow/dags/example_hello_world.py
+[2024-10-15T20:49:26.918+0000] {logging_mixin.py:188} INFO - [2024-10-15T20:49:26.918+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-10-15T20:49:26.943+0000] {logging_mixin.py:188} INFO - [2024-10-15T20:49:26.943+0000] {dag.py:3954} INFO - Setting next_dagrun for hello_world_dag to 2024-10-15 00:00:00+00:00, run_after=2024-10-16 00:00:00+00:00
+[2024-10-15T20:49:26.973+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/example_hello_world.py took 0.113 seconds
+[2024-10-15T20:49:57.342+0000] {processor.py:161} INFO - Started process (PID=13641) to work on /opt/airflow/dags/example_hello_world.py
+[2024-10-15T20:49:57.343+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/example_hello_world.py for tasks to queue
+[2024-10-15T20:49:57.345+0000] {logging_mixin.py:188} INFO - [2024-10-15T20:49:57.345+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/example_hello_world.py
+[2024-10-15T20:49:57.369+0000] {processor.py:840} INFO - DAG(s) 'hello_world_dag' retrieved from /opt/airflow/dags/example_hello_world.py
+[2024-10-15T20:49:57.389+0000] {logging_mixin.py:188} INFO - [2024-10-15T20:49:57.389+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-10-15T20:49:57.414+0000] {logging_mixin.py:188} INFO - [2024-10-15T20:49:57.414+0000] {dag.py:3954} INFO - Setting next_dagrun for hello_world_dag to 2024-10-15 00:00:00+00:00, run_after=2024-10-16 00:00:00+00:00
+[2024-10-15T20:49:57.441+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/example_hello_world.py took 0.106 seconds
+[2024-10-15T20:50:27.596+0000] {processor.py:161} INFO - Started process (PID=13702) to work on /opt/airflow/dags/example_hello_world.py
+[2024-10-15T20:50:27.597+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/example_hello_world.py for tasks to queue
+[2024-10-15T20:50:27.600+0000] {logging_mixin.py:188} INFO - [2024-10-15T20:50:27.599+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/example_hello_world.py
+[2024-10-15T20:50:27.624+0000] {processor.py:840} INFO - DAG(s) 'hello_world_dag' retrieved from /opt/airflow/dags/example_hello_world.py
+[2024-10-15T20:50:27.656+0000] {logging_mixin.py:188} INFO - [2024-10-15T20:50:27.655+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-10-15T20:50:27.688+0000] {logging_mixin.py:188} INFO - [2024-10-15T20:50:27.687+0000] {dag.py:3954} INFO - Setting next_dagrun for hello_world_dag to 2024-10-15 00:00:00+00:00, run_after=2024-10-16 00:00:00+00:00
+[2024-10-15T20:50:27.714+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/example_hello_world.py took 0.127 seconds
+[2024-10-15T20:50:57.875+0000] {processor.py:161} INFO - Started process (PID=13763) to work on /opt/airflow/dags/example_hello_world.py
+[2024-10-15T20:50:57.876+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/example_hello_world.py for tasks to queue
+[2024-10-15T20:50:57.878+0000] {logging_mixin.py:188} INFO - [2024-10-15T20:50:57.878+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/example_hello_world.py
+[2024-10-15T20:50:57.904+0000] {processor.py:840} INFO - DAG(s) 'hello_world_dag' retrieved from /opt/airflow/dags/example_hello_world.py
+[2024-10-15T20:50:57.927+0000] {logging_mixin.py:188} INFO - [2024-10-15T20:50:57.927+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-10-15T20:50:57.952+0000] {logging_mixin.py:188} INFO - [2024-10-15T20:50:57.952+0000] {dag.py:3954} INFO - Setting next_dagrun for hello_world_dag to 2024-10-15 00:00:00+00:00, run_after=2024-10-16 00:00:00+00:00
+[2024-10-15T20:50:57.980+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/example_hello_world.py took 0.112 seconds
+[2024-10-15T20:51:28.106+0000] {processor.py:161} INFO - Started process (PID=13824) to work on /opt/airflow/dags/example_hello_world.py
+[2024-10-15T20:51:28.107+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/example_hello_world.py for tasks to queue
+[2024-10-15T20:51:28.110+0000] {logging_mixin.py:188} INFO - [2024-10-15T20:51:28.110+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/example_hello_world.py
+[2024-10-15T20:51:28.129+0000] {processor.py:840} INFO - DAG(s) 'hello_world_dag' retrieved from /opt/airflow/dags/example_hello_world.py
+[2024-10-15T20:51:28.155+0000] {logging_mixin.py:188} INFO - [2024-10-15T20:51:28.154+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-10-15T20:51:28.192+0000] {logging_mixin.py:188} INFO - [2024-10-15T20:51:28.192+0000] {dag.py:3954} INFO - Setting next_dagrun for hello_world_dag to 2024-10-15 00:00:00+00:00, run_after=2024-10-16 00:00:00+00:00
+[2024-10-15T20:51:28.223+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/example_hello_world.py took 0.126 seconds
+[2024-10-15T20:51:58.729+0000] {processor.py:161} INFO - Started process (PID=13885) to work on /opt/airflow/dags/example_hello_world.py
+[2024-10-15T20:51:58.730+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/example_hello_world.py for tasks to queue
+[2024-10-15T20:51:58.732+0000] {logging_mixin.py:188} INFO - [2024-10-15T20:51:58.732+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/example_hello_world.py
+[2024-10-15T20:51:58.752+0000] {processor.py:840} INFO - DAG(s) 'hello_world_dag' retrieved from /opt/airflow/dags/example_hello_world.py
+[2024-10-15T20:51:58.774+0000] {logging_mixin.py:188} INFO - [2024-10-15T20:51:58.773+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-10-15T20:51:58.798+0000] {logging_mixin.py:188} INFO - [2024-10-15T20:51:58.798+0000] {dag.py:3954} INFO - Setting next_dagrun for hello_world_dag to 2024-10-15 00:00:00+00:00, run_after=2024-10-16 00:00:00+00:00
+[2024-10-15T20:51:58.826+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/example_hello_world.py took 0.103 seconds
+[2024-10-15T20:52:29.125+0000] {processor.py:161} INFO - Started process (PID=13946) to work on /opt/airflow/dags/example_hello_world.py
+[2024-10-15T20:52:29.126+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/example_hello_world.py for tasks to queue
+[2024-10-15T20:52:29.129+0000] {logging_mixin.py:188} INFO - [2024-10-15T20:52:29.128+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/example_hello_world.py
+[2024-10-15T20:52:29.147+0000] {processor.py:840} INFO - DAG(s) 'hello_world_dag' retrieved from /opt/airflow/dags/example_hello_world.py
+[2024-10-15T20:52:29.167+0000] {logging_mixin.py:188} INFO - [2024-10-15T20:52:29.167+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-10-15T20:52:29.192+0000] {logging_mixin.py:188} INFO - [2024-10-15T20:52:29.192+0000] {dag.py:3954} INFO - Setting next_dagrun for hello_world_dag to 2024-10-15 00:00:00+00:00, run_after=2024-10-16 00:00:00+00:00
+[2024-10-15T20:52:29.218+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/example_hello_world.py took 0.102 seconds
+[2024-10-15T20:52:59.454+0000] {processor.py:161} INFO - Started process (PID=14007) to work on /opt/airflow/dags/example_hello_world.py
+[2024-10-15T20:52:59.456+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/example_hello_world.py for tasks to queue
+[2024-10-15T20:52:59.458+0000] {logging_mixin.py:188} INFO - [2024-10-15T20:52:59.457+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/example_hello_world.py
+[2024-10-15T20:52:59.480+0000] {processor.py:840} INFO - DAG(s) 'hello_world_dag' retrieved from /opt/airflow/dags/example_hello_world.py
+[2024-10-15T20:52:59.500+0000] {logging_mixin.py:188} INFO - [2024-10-15T20:52:59.500+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-10-15T20:52:59.526+0000] {logging_mixin.py:188} INFO - [2024-10-15T20:52:59.526+0000] {dag.py:3954} INFO - Setting next_dagrun for hello_world_dag to 2024-10-15 00:00:00+00:00, run_after=2024-10-16 00:00:00+00:00
+[2024-10-15T20:52:59.550+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/example_hello_world.py took 0.102 seconds
